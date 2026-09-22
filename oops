@@ -1,0 +1,12 @@
+public class carClass{
+    public static void main(String[]args){
+        car x = new car();
+        x.carno = 9823;
+        x.carSpeed =200;
+        x.setName("maruti");
+        String a =x.getName();
+        System.out.println(a);
+        System.out.println("car no is:"+x.carno);
+        System.out.println("car speed is:"+x.carSpeed);
+    }
+}
